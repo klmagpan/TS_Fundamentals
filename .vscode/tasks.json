@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			
+			"tsconfig": "demo/tsconfig.json",
+			// "problemMatcher": [
+			// 	"$tsc"
+			// ],
+			// "group": "build",
+			"label": "Compile TypeScript",
+			"presentation": {
+				"echo": false,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false,
+			}
+		}
+	]
+}
